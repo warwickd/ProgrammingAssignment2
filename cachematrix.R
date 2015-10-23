@@ -35,7 +35,7 @@ makeCacheMatrix <- function(x = numeric()) {
  }
 
 
-## cacheSolve returns the cached value of the inverse of a matrix x
+## cacheSolve returns the cached value of the inverse of a matrix passed from the result of makeCacheMatrix
 ## or, if the inverse is not yet cached, calculates  the inverse of 'x'
 
 cacheSolve <- function(x, ...) {
